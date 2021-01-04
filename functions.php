@@ -108,7 +108,7 @@ function university_adjust_queries($query) {
 add_action('pre_get_posts', 'university_adjust_queries');
 
 function universityMapKey($api) {
-  $api['key'] = 'AIzaSyBvzp4fNX4NjCApNHjnQFMWBiy43GTQh1o';
+  $api['key'] = 'YourGoogleMapsAPIKey';
   return $api;
 }
 
